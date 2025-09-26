@@ -1,0 +1,21 @@
+dataset:
+  features:
+    - mean_dist_h: "Mean distance to alive humans"
+    - humans_within_600: "Number of humans within 600 units"
+    - ratio_z_h: "Ratio of zombies to humans alive"
+    - phase_code: "Game phase (0=early, 1=mid, 2=late)"
+    - map_cp_density: "Map chokepoint density score"
+  target:
+    - y_attack_now: "Binary label - should zombies attack now (0/1)"
+
+model:
+  type: "XGBoost"
+  hyperparameters:
+    n_estimators: 300
+    max_depth: 5
+    learning_rate: 0.08
+    subsample: 0.9
+    colsample_bytree: 0.9
+    reg_lambda: 1.0
+    tree_method: "hist"
+    eval_metric: "logloss"
