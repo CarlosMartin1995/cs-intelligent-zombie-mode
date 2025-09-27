@@ -6,7 +6,13 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(dir:*)",
-      "Bash(xargs:*)"
+      "Bash(xargs:*)",
+      "Bash(findstr:*)",
+      "Bash(tar:*)",
+      "Bash(powershell:*)",
+      "Bash(xcopy:*)",
+      "Bash(.compile.exe zp50zp50_core.sma)",
+      "Bash(compile_zp50.bat)"
     ],
     "deny": [],
     "ask": []
