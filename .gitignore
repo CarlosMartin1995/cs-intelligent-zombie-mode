@@ -1,0 +1,48 @@
+# CS 1.6 Zombie AI Server - Git Ignore
+
+# HLDS Server Files (900+ MB)
+hlds/
+!hlds/.gitkeep
+
+# Downloaded files (will be on Google Drive)
+downloads
+
+# Python virtual environment
+python_sidecar/.venv/
+python_sidecar/__pycache__/
+python_sidecar/*.pyc
+python_sidecar/.env
+
+# Compiled AMXX plugins
+*.amxx
+!addons/amxmodx/plugins/.gitkeep
+
+# Logs and temporary files
+*.log
+logs/
+temp/
+*.tmp
+*.bak
+
+# Machine learning models (will be generated)
+python_sidecar/models/*.json
+python_sidecar/models/*.pkl
+!python_sidecar/models/.gitkeep
+
+# Training data
+python_sidecar/train/dataset.csv
+python_sidecar/train/logs/
+
+# IDE and OS files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep directory structure
+!.gitkeep
