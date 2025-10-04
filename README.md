@@ -19,9 +19,21 @@ AI-powered Counter-Strike 1.6 server with intelligent zombie gameplay using XGBo
 ## Quick Start
 
 ### Prerequisites
-1. Install HLDS/ReHLDS in `hlds/` folder
-2. Install Metamod-R, AMX Mod X, Zombie Plague, YaPB
-3. Python 3.10+ installed
+1. Windows 10+ computer
+2. Python 3.10 installed
+
+### Commands
+
+With the following command you can start the server locally:
+```bash
+scripts\start_server.bat
+```
+
+By default it starts the server in de_dust2.
+
+The server is already configured with YaPB bots and Zombie Plague 5.0.
+
+## Python Stage WIP
 
 ### Setup Python Environment
 ```powershell
