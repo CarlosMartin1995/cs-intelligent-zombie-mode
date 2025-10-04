@@ -1,18 +1,9 @@
 # CS 1.6 Zombie AI Server - Git Ignore
 
 # HLDS Server Files (900+ MB)
-hlds/
-!hlds/.gitkeep
 
 # Downloaded files (will be on Google Drive)
-downloads/*.zip
-downloads/*.exe
-downloads/ReHLDS/
-downloads/Metamod-r/
-downloads/amxmod/
-downloads/yapb*/
-downloads/zp_*/
-downloads/zm_*
+downloads
 
 # Python virtual environment
 python_sidecar/.venv/

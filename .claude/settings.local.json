@@ -12,7 +12,10 @@
       "Bash(powershell:*)",
       "Bash(xcopy:*)",
       "Bash(.compile.exe zp50zp50_core.sma)",
-      "Bash(compile_zp50.bat)"
+      "Bash(compile_zp50.bat)",
+      "Bash(cmd /c dir:*)",
+      "Bash(start hlds.exe:*)",
+      "WebSearch"
     ],
     "deny": [],
     "ask": []
